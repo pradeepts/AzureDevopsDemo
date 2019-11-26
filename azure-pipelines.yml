@@ -14,7 +14,7 @@ steps:
   inputs:
     deploymentScope: 'Resource Group'
     ConnectedServiceName: 'azdevops-demo'
-    subscriptionName: 'SYSG-IOT-CICD-01'
+    subscriptionName: 'a47640bf-8646-423e-8fbf-ec58566dd111'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'azdops-demo-rg'
     location: 'East US'
