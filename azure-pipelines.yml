@@ -13,8 +13,8 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    ConnectedServiceName: 'azdops-demo'
-    subscriptionName: 'SYSG-IOT-Security&Surveillance-01'
+    ConnectedServiceName: 'azdevops-demo'
+    subscriptionName: 'SYSG-IOT-CICD-01'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'azdops-demo-rg'
     location: 'East US'
